@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#welcome-text{
+    padding-top: 2%;
+}
+
+#change-bg-color{
+    color: brown;
+    margin-top: 3%;
+}
+
+#box {
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(177, 46, 72);
+    margin: 5px auto;
+    border: 5px dashed black;
+}
+
+#name {
+    margin: 15px auto;
+    color: brown;
+}
+
+#reset {
+    position: center;
+
+}
+
+.animate-box{
+    animation: boxCOLOR 5s;
+}
+
+@keyframes boxCOLOR {
+    0%{
+        border: 5px dashed red;
+    }
+    25%{
+        border: 5px dashed yellow;
+    }
+    50%{
+        border: 5px dashed limegreen;
+    }
+    75%{
+        border: 5px dashed blue;
+    }
+    100%{
+        border: 5px dashed black;
+    }
+}
